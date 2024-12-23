@@ -92,6 +92,8 @@ async function leituraDeDados(){
    } catch (err){
     console.log(err)
     console.log('isso aqui é executado depois da promessa com erro.');
+   } finally {
+    console.log('dentro do finally')
    }
 }
 
